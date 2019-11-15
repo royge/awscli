@@ -1,0 +1,26 @@
+schemaVersion: '2.0.0'
+commandTests:
+  - name: "aws cli installation"
+    command: "which"
+    args: ["aws"]
+    expectedOutput: ["/usr/local/bin/aws\n"]
+
+  - name: "aws cli version"
+    command: "aws"
+    args: ["--version"]
+    expectedOutput: ["aws-cli/1.16.*"]
+
+  - name: "groff installation"
+    command: "which"
+    args: ["groff"]
+    expectedOutput: ["/usr/bin/groff\n"]
+
+  - name: "groff version"
+    command: "groff"
+    args: ["--version"]
+    expectedOutput: ["version 1.22.*"]
+
+  - name: "less installation"
+    command: "which"
+    args: ["less"]
+    expectedOutput: ["/usr/bin/less\n"]
