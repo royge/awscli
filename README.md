@@ -1,5 +1,7 @@
 # awscli-docker
 
+[![Build Status](https://travis-ci.org/royge/awscli-docker.svg?branch=master)](https://travis-ci.org/royge/awscli-docker)
+
 Docker image with AWS CLI
 
 ## Tools Installed
